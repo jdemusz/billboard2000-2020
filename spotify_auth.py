@@ -51,3 +51,27 @@ refresh_token = input("What is the refresh token retrieved? ")
     "refresh_token": refresh_token,
     "scope":""
 }
+
+# Use refresh token 
+
+#curl --request POST \
+# --url 'https:accounts.spotify.com/api/oauth/token' \
+# -data f'grant_type=refresh_token' \
+#  --data f'client_id={client_id}' \
+#  --data f'client_secret={client_secret}' \
+#  --data f'refresh_token={refresh_token}'
+
+
+#refresh_base_url = "https:accounts.spotify.com/api/oauth/token"
+#headers = {
+#    'content-type': 'application/x-www-form-urlencoded',
+#}
+
+#data = {
+#  'fgrant_type': 'refresh_token',
+#  'fclient_id': '{client_id}',
+#  'fclient_secret': '{client_secret}',
+#  'frefresh_token': '{refresh_token}'
+#}
+
+#response = requests.post('https:accounts.spotify.com/api/oauth/token', headers=headers, data=data).json()
