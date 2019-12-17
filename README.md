@@ -8,4 +8,4 @@ Analyzing the genre of No.1 hits on Hot 100 chart of Billboard
 Limitations:
 - We were only able to look at the number 1 song each week overt the last 20 years due to how many requests we could make to the billboard api. Would've been better to analyze trends with more data, perhaps if we could've looked at all the hits on the Top 100 Chart for each year.
 - For the year 2000, we weren't able to get a good amount of the Song ID data that we needed to get audio features from the Spotify API. This led to us having almost 3 months worth of data missing and so our analysis was a little lacking that year. 
-
+- Originally wanted to be able to look at trends according to geographical location, age, race, income level, etc but user data was not able to be accessed via the Spotify API. 
