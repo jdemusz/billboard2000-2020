@@ -17,9 +17,9 @@ This project seeks to analyze the trend in audio features in songs ranked #1 on 
 - Originally wanted to be able to look at trends according to geographical location, age, race, income level, etc but user data was not able to be accessed via the Spotify API. 
 
 ### Meet the Team
-Julie Demusz - Data Research, Visualizations /n
-Julia O'Brien - Data Collection, Data Cleanup /n
-Nathaniel Ross - Visualizations, Project Presentation /n
+- Julie Demusz: Data Research, Visualizations 
+- Julia O'Brien: Data Collection, Data Cleanup 
+- Nathaniel Ross: Visualizations, Project Presentation 
 
 ### Acknowledgments / Inspiration
 https://towardsdatascience.com/billboard-hot-100-analytics-using-data-to-understand-the-shift-in-popular-music-in-the-last-60-ac3919d39b49
