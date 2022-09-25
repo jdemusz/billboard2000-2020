@@ -2,21 +2,8 @@
 
 ### Project Overview
 
-This project seeks to analyze the trend in audio features in songs ranked #1 on the Billboard Hot 100 Chart for the last 20 years. The Billboard Hot 100 API, Spotify API, and iTunes API were used to consolidate a list of the #1 Hit Songs for each week of the last 20 years, and then to collect audio feature (including energy, danceability, key, acousticness, loudness, valence, tempo, instrumentalness, etc), genre, and explicitness data. Matplotlib and Seaborn were used to visualize the data and observe patterns.
+This project seeks to analyze the trend in audio features in songs ranked #1 on the Billboard Hot 100 Chart for the last 20 years. The Billboard Hot 100 API, Spotify API, and iTunes API were used to consolidate a list of the #1 Hit Songs for each week of the last 20 years, and then to collect audio feature, genre, and explicitness data. Matplotlib and Seaborn were used to visualize the data and observe patterns.
 
-### Technologies Used
-- Python
-- Pandas
-- Jupyter Notebook
-- GET / Requests
-- JSON
-- Billboard Hot 100 API
-- Spotify API
-- iTunes API
-- Matplotlib
-- NumPy
-- Seaborn
-- DateTime
 
 ### Some Conclusions from this analysis:
 -  Looking at opur genre stacked chart, it is clear that Pop dominates the number one song spot over the last 20 years. In the early 2000's, R&B/Soul is a pretty big contributor, but falls off as we get closer to 2019. Hip-Hop/Rap becomes a more prominent genre as we get closer to modern day, and we see country and alternative become featured as well. 
